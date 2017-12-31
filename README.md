@@ -5,6 +5,6 @@ The quantity and appearance of the gauges is configurable. If you add more field
 
 ## Status
 
-**2017-12-31** : Works, needs a better README and some additional comments int  the code.
+**2017-12-31** : Works, needs a better README and some additional comments in the code.
 
 
