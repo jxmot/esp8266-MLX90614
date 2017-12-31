@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Environmental Gauges Demonstration</title>
-
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <!-- CSS for this file -->
     <link rel="stylesheet" href="assets/css/multi-gauge.css"/>
-
+    <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
     <!-- google API load -->
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -19,7 +20,10 @@
 <body>
     <div class="container">
         <div class="inner">
-            <!-- gauge ID"s must match config!!! -->
+            <!-- gauge ID"s must match config!!! 
+                 Take a look at gauge-cfg.js, specifically the
+                 `target` member.
+            -->
             <div id="gauge_div"></div>
         </div>
         <div class="inner">

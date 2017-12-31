@@ -12,7 +12,6 @@ function displayData(ix, point) {
     } else console.log('displayData() - ix out of range = ' + ix);
 };
 
-
 // initialize the guages...
 function initGauges() {
     for(var ix = 0; ix < gauge_cfg.length; ix++)
