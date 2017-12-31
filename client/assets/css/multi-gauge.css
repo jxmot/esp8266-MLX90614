@@ -1,0 +1,21 @@
+body { 
+    background-color: #ddd; 
+}
+
+.container { 
+    height: 100%; 
+    width: 100%; 
+    display: table; 
+}
+
+.inner { 
+    vertical-align: middle; 
+    display: table-cell; 
+    background-color: #ddd; 
+}
+
+#gauge_div #gauge_div2 { 
+    width: 120px; 
+    margin: 0 auto; 
+}
+
