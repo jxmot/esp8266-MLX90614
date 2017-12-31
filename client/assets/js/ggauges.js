@@ -23,6 +23,12 @@ function initGauges() {
 
         gauge_cfg[ix].chart = new google.visualization.Gauge(document.getElementById(gauge_cfg[ix].target));
 
+        // NOTE: This is done here as a placeholder for future expansion. Not 
+        // all of the may use Thingspeak as their data source. In the future
+        // (and likely a different project) may use Firebase as the data source
+        //
+        // This will start a repeating "read" of Thingspeak data, with an
+        // interval that's configured in _thingspk-cfg.js
         if('thingspeak' === gauge_cfg[ix].data_source) {
             window.thingspk_loadData(ix);
             setInterval(window.thingspk_loadData, thingspk_cfg.interval, ix);
