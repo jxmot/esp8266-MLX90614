@@ -1,8 +1,7 @@
 /* ************************************************************************ */
 /*
-  This is a library example for the MLX90614 Temp Sensor
-    was based on the Adafruit MLX90614 example. Many changes
-    have been made.
+    This was a library example for the MLX90614 Temp Sensor. And it was based 
+    on the Adafruit MLX90614 example. Many changes have been made.
 */
 /* ************************************************************************ */
 #include <Wire.h>
