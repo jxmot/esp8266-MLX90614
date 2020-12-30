@@ -7,4 +7,5 @@ The quantity and appearance of the gauges is configurable. If you add more field
 
 **2017-12-31** : Works, needs a better README and some additional comments in the code.
 
-
+---
+<img src="http://webexperiment.info/extcounter/mdcount.php?id=esp8266-MLX90614">
